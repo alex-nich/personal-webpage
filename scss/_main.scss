@@ -1,0 +1,107 @@
+#main {
+    position: relative;
+    width: 77%;
+    right: 0;
+    top: 0;
+    margin: 0;
+    padding: 0;
+    left: 20%;
+    line-height: 1.6rem;
+    font-size: 1.4rem;
+
+
+    @media screen and (max-width: $tablet-width) {
+      width: 100%;   
+  }
+
+    footer {
+        position: relative;
+        bottom: 0;
+        height: 3rem; 
+        background-color: $black;
+        text-align: center;
+    }
+
+    .header-decor {
+    
+        width: 100%;
+        margin: 0rem 0 2rem 0;
+        padding: 1.5rem 0 0 2rem;
+        
+        font-family: $monospace-fs;
+        line-height: 0.5;
+      }
+      
+      .header-decor  span {
+        display: inline-block;
+        position: relative;  
+      }
+    
+      .header-decor  span:before {
+        content: "\25CB";
+        margin-right: 1rem;
+        color: $golden;
+        position: absolute;
+        height: .5rem;
+        font-size: 1.6rem;
+        right: 95%;
+      }
+    
+      .header-decor span:after {
+        content: "";
+        position: absolute;
+        height: .5rem;
+        border-bottom: 1px solid $golden;
+        top: 0;
+        width: 730px;
+        left: 100%;
+        margin-left: 1rem;
+      }
+}
+
+
+
+/* 
+
+.main-section {
+    
+    //center section in div
+    position: relative;
+    width: 80%;
+    height: 90%;
+    top: 5%;
+    margin-right:auto;
+    margin-left:auto;
+
+    background-color: $section-bc-odd;
+    border-color:rgb(39, 41, 54); 
+    border-style: solid;
+    //border-radius: 2%;
+
+    
+    h1 {
+        font-family: $sans-serif-fs;
+        text-align: center;
+        font-size: 2rem;
+        margin: 1rem;
+    }
+    
+    
+    section:first-child {
+        margin-top: 0;
+    }
+    
+}
+
+div.container {
+    height: 100vh;
+}
+
+*/
+
+
+
+
+
+    
+    

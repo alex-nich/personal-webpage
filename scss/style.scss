@@ -1,0 +1,43 @@
+@import 'variables';
+@import 'home';
+@import 'aside';
+@import 'about';
+@import 'projects';
+@import 'contact-me';
+@import 'main';
+
+//reset default settings
+* {
+ margin: 0;
+ padding: 0;
+}
+
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+
+    @media screen and (min-width: $phone-width ){
+         font-size:      .8rem; 
+        
+    }
+
+    @media only screen and (min-width: $tablet-width) {
+         font-size:      1.2rem; 
+    }
+    
+    width:          100%;   //100% of parent: html
+    height:         100%;   //100% of parent: html
+    margin: 0;
+    padding: 0;
+
+    background-color: $black;
+
+    font-family:    $sans-serif-fs;
+    font-size:      1.2rem;   //equivalent to 16px
+    line-height:    1.6rem;   //equivalent to 16px
+    color:          $white;
+
+}

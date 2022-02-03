@@ -1,0 +1,82 @@
+#projects {
+    background-color: $gray3;
+    height: 38rem;
+}
+
+#scrollable {
+    overflow-y: auto;
+    position: relative;
+    height: 85%;
+}
+
+.project-item {
+
+    position: relative;
+
+    background-color: $gray2;
+
+    h3 {
+        text-align: center;
+        margin-bottom: .5rem;
+    }
+
+    border: $gray1 3px solid;
+    padding: 1rem;
+    margin: 1.2rem;
+    margin-left: auto;
+    margin-right: auto;
+    height: 20rem;
+    width: 90%;
+    box-sizing: border-box;
+
+    h4.project-skills {
+        font-family: $monospace-fs;
+        font-size: 1rem ;
+        text-align: center;
+        color: $golden;
+        font-size: 1.2rem;
+    }
+
+    .fa {
+        padding: .5rem;
+        font-size: 1.6rem;
+        width: 2rem;
+        text-align: center;
+        text-decoration: none;
+        margin: 5px 2px;
+        color: $white;
+        border: $white thin solid;
+        }
+
+    a {
+        position: absolute;
+        right: 2%;
+        top: 5%;
+    }
+
+    img {
+        float: left;
+        margin-right: 1rem;
+    }
+
+    p {
+        margin: 3rem 0;
+    }
+
+}
+
+.project-item:nth-child(even) {
+    img {
+        float: right;
+        margin-left: 1rem;
+    }
+
+    a {
+        position: absolute;
+        left: 2%;
+        top: 5%;
+    }
+    
+}
+
+

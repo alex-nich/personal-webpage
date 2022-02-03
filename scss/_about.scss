@@ -1,0 +1,150 @@
+#about {
+    background-color: $gray2;
+    width: 100%;
+}
+
+p.about-intro { 
+    margin: 2rem; 
+    text-indent: 30px;
+}
+
+h2.subtitle {
+    margin: 1rem;
+    font-family: $monospace-fs;
+    color: $black;
+}
+
+#about p:nth-child(3){
+    margin-bottom: 0;
+}
+
+.flex-container {
+    display: flex;
+    margin-bottom: 1rem;
+
+    @media only screen and (max-width: 600px) {
+        display: inline-block;
+    }
+}
+
+.flex-school-logo {
+    margin-left: 2rem;
+}
+
+.flex-school-desc {
+    margin-left: 1rem;
+}
+
+.flex-school-desc {
+    text-align: left;
+    
+    h1 {
+        margin-bottom: .2rem;
+        font-size: 2rem;
+    }
+
+    h2 {
+        margin-bottom: .1rem;
+        font-size: 1.5rem;
+        color: $gray5;
+    }
+
+    h3 {
+        font-size: 1.2rem;
+        color: $gray4;
+    }
+
+    p#desc {
+        margin: .2rem 0 0 0;
+    }
+}
+
+.course-list {
+
+    position: relative;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+    
+
+    height: 30%;
+    
+    h3 {
+        margin: 0 1rem;
+        text-align: center;
+        font-weight: normal;
+    }
+
+    ul {
+
+        list-style: none;  
+        overflow-y:auto;
+        height: 100%;
+        background-color: rgb(255, 255, 255);
+        color: black;
+        border: rgb(39, 41, 54) solid 0.15rem;
+        border-radius: 2%;
+        margin: .25rem 1rem;
+
+        li {
+            padding: 0.1rem;
+            padding-left: 0.5rem;
+        }
+        
+
+        li:nth-child(2n) {
+            background-color :rgba( $color: rgb(99, 87, 92), $alpha: .2)
+        }
+    }
+
+    .course-no {
+        font-weight: bold;
+    }
+}
+
+
+p#skills {
+    margin-left: 2rem;
+}
+
+#flex-container-skills {
+    display: flex;
+
+    @media only screen and (max-width: 600px) {
+        display: inline-block;
+    }
+}
+
+.flex-item-skills {
+    flex: 1 1 0px;
+    justify-content: space-between;
+
+    ul {
+        margin: .5rem 3rem;
+        width: 90%;
+        list-style: none;
+    }
+
+    #tech-list {
+        columns: 2;
+        list-style:circle;
+    }
+
+    li {
+        margin: .2rem;
+        white-space: nowrap;
+    }
+
+
+   h3.skills-header {
+        margin: 1rem 0 .2rem 3rem;
+        font-family: $monospace-fs;
+        color: $black;
+    }
+}
+
+
+
+
+
